@@ -42,4 +42,5 @@ end
 
 def update_element_from_index(array, index_number, element)
   array = ["cat", "dog", "mouse"]
+  array[index_number] = element
 end
